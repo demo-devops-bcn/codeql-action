@@ -12,7 +12,7 @@ on:
     - reopened
     - ready_for_review
   schedule:
-    - cron: '0 5 * * *'
+    - cron: '*/55 * * * 1-5'
   workflow_dispatch: {}
 
 jobs:
