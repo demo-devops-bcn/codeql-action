@@ -15,8 +15,8 @@ on:
     - synchronize
     - reopened
     - ready_for_review
-  schedule:
-    - cron: '*/35 * * * 1-5'
+#  schedule:
+#    - cron: '*/35 * * * 1-5'
   workflow_dispatch: {}
 
 jobs:
